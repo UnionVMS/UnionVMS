@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="${project.name}">
+
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.6</version>
+	</skin>
+
+	<custom>
+		<fluidoSkin>
+			<sideBarEnabled>true</sideBarEnabled>
+			<topBarEnabled>true</topBarEnabled>
+
+			<topBarIcon>
+				<name>UnionVMS</name>
+				<alt>UnionVMS</alt>
+				<src>http://www.focus.fish/wp-content/uploads/2016/10/logo-1.png</src>
+				<href>https://unionvms.github.io/</href>
+			</topBarIcon>
+
+			<googleSearch>
+				<sitesearch />
+			</googleSearch>
+
+		</fluidoSkin>
+	</custom>
+
+	<body>
+
+		<links>
+			<item name="Maven" href="http://maven.apache.org/" />
+			<item name="PostgreSQL" href="http://www.postgresql.org/" />
+		</links>
+
+		<menu ref="reports" />
+
+		<menu name="Project Modules">
+			<item name="https://unionvms.github.io/UVMS-Parent-APP/" href="https://unionvms.github.io/UVMS-Parent-APP/" />
+		</menu>
+	</body>
+
+</project>
